@@ -1,0 +1,7 @@
+.eggs/
+build/
+dist/
+photo.egg-info/
+venv/
+__pycache__/
+config.py
