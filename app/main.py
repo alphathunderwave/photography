@@ -13,7 +13,7 @@ client_secret = config.client_secret
 
 client = ImgurClient(client_id, client_secret)
 
-items = client.get_album_images('sY44H')
+items = client.get_album_images('nkOo18T')
 pics = []
 for item in items:
     pics.append([item.link,item.description])
